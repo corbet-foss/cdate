@@ -26,7 +26,7 @@ longDate('de-ch', 2026, 9, 7);
 | Bun | `bun add @corbet-foss/cdate` |
 | Deno | `deno add npm:@corbet-foss/cdate` |
 
-The 0.2.1 JavaScript distribution includes compiled ESM, CommonJS,
+The 0.3.1 JavaScript distribution includes compiled ESM, CommonJS,
 TypeScript declarations, and a standalone browser module. Node.js 20+ is
 supported; no TypeScript loader is required.
 
@@ -37,7 +37,7 @@ const { longDate } = require('@corbet-foss/cdate');
 
 ```html
 <script type="module">
-  import { longDate } from 'https://cdn.jsdelivr.net/npm/@corbet-foss/cdate@0.2.1/dist/browser.js';
+  import { longDate } from 'https://cdn.jsdelivr.net/npm/@corbet-foss/cdate@0.3.1/dist/browser.js';
   console.log(longDate('de-ch', 2026, 9, 7));
 </script>
 ```
@@ -102,7 +102,7 @@ for generation, verification, and publication commands.
 
 ## License
 
-Copyright 2026 Julian Y. Richard Corbet. The 0.3.0 release line is licensed
+Copyright 2026 Julian Y. Richard Corbet. The 0.3.1 release line is licensed
 under [LGPL-3.0-only](https://github.com/corbet-foss/cdate/blob/main/LICENSES/LGPL-3.0-only.txt)
 [WITH LGPL-3.0-linking-exception](https://github.com/corbet-foss/cdate/blob/main/LICENSES/LGPL-3.0-only%20WITH%20LGPL-3.0-linking-exception.txt),
 with the incorporated [GPL version 3](https://github.com/corbet-foss/cdate/blob/main/LICENSES/GPL-3.0-only.txt).

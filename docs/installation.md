@@ -3,7 +3,7 @@
 The main branch ships 0.3.1 under LGPL-3.0-only WITH LGPL-3.0-linking-exception, published to registries. The existing releases documented below keep their original
 license grants; this change does not replace their artifacts.
 
-This guide describes version 0.2.1. Check the linked registry or release
+This guide describes version 0.3.1. Check the linked registry or release
 for availability; a source manifest alone does not establish publication.
 
 ## JavaScript and Rust
@@ -17,7 +17,7 @@ verify that lower bound.
 ## Python and the command line
 
 The pure Python package requires Python 3.10+ and is published on
-[PyPI](https://pypi.org/project/cdate/0.2.1/). Install this release with pip
+[PyPI](https://pypi.org/project/cdate/0.3.1/). Install this release with pip
 or uv in your Python environment:
 
 ```sh
@@ -48,21 +48,21 @@ For an isolated CLI environment, use `pipx install cdate==0.3.1` or
 The wheel contains no native extensions and is platform independent. Release
 evidence records the Python version and operating system actually exercised.
 Verified wheels and source distributions are also attached to the
-[GitHub release](https://github.com/corbet-labs/cdate/releases/tag/v0.2.1).
+[GitHub release](https://github.com/corbet-labs/cdate/releases/tag/v0.3.1).
 
 ## JSR
 
 The JSR package is
-[`@corbet-foss/cdate`](https://jsr.io/@corbet-foss/cdate@0.2.1):
+[`@corbet-foss/cdate`](https://jsr.io/@corbet-foss/cdate@0.3.1):
 
 ```sh
-deno add jsr:@corbet-foss/cdate@0.2.1
+deno add jsr:@corbet-foss/cdate@0.3.1
 ```
 
 ## Typst
 
-Download `cdate-0.2.1-typst.tar.gz` from the matching GitHub release and
-extract its contents into `typst/packages/local/cdate/0.2.1` under your
+Download `cdate-0.3.1-typst.tar.gz` from the matching GitHub release and
+extract its contents into `typst/packages/local/cdate/0.3.1` under your
 [Typst data directory](https://github.com/typst/packages#local-packages):
 
 | System | Data directory |
@@ -72,7 +72,7 @@ extract its contents into `typst/packages/local/cdate/0.2.1` under your
 | Windows | `%APPDATA%` |
 
 ```typst
-#import "@local/cdate:0.2.1": *
+#import "@local/cdate:0.3.1": *
 ```
 
 The archive includes its manifest, tables, source, and licenses. CI compiles

@@ -17,5 +17,5 @@ shutil.copyfile(root / "README.md", root / "py/README.md")
 licenses = root / "py/LICENSES"
 licenses.mkdir(exist_ok=True)
 for source in (root / "LICENSES").iterdir():
-    if source.is_file() and source.name != "FSL-1.1-ALv2.txt":
+    if source.is_file():
         shutil.copyfile(source, licenses / source.name)

@@ -24,7 +24,6 @@ for (const [file, format, packages] of [
 rmSync('LICENSES', { recursive: true, force: true });
 mkdirSync('LICENSES', { recursive: true });
 for (const file of readdirSync('../../../LICENSES')) {
-    if (file === 'FSL-1.1-ALv2.txt') continue; // Historical reference only; never distributed.
     copyFileSync(`../../../LICENSES/${file}`, `LICENSES/${file}`);
 }
 // Keep the registry page and the GitHub product page in sync.

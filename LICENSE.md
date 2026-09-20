@@ -2,7 +2,7 @@
 
 Copyright 2026 Julian Y. Richard Corbet.
 
-cdate 0.3.0 is licensed under **LGPL-3.0-only WITH LGPL-3.0-linking-exception**.
+cdate 0.3.1 is licensed under **LGPL-3.0-only WITH LGPL-3.0-linking-exception**.
 This covers the library's own Rust, JavaScript, Python and Typst
 implementations, shared tables, tests and documentation. The complete
 [LGPL version 3](LICENSES/LGPL-3.0-only.txt) incorporates
@@ -22,11 +22,3 @@ Previously distributed releases retain their original grants. Existing release
 tags, published archives and already prepared Apache release artifacts are not
 relicensed or replaced. Retained permissive license texts describe those
 materials; they are not alternative grants for new LGPL-covered work.
-
-Versions 0.1.0 and 0.2.0 were released under FSL-1.1-ALv2; version 0.2.1
-under Apache-2.0. Those grants are unchanged. The
-[original FSL notice](https://github.com/corbet-labs/cdate/blob/619f64343b3738a152329d61d906cedc3cff6b2c/LICENSES/FSL-1.1-ALv2.txt)
-remains attached to its original source. A repository copy is retained at
-`LICENSES/FSL-1.1-ALv2.txt` for historical reference and excluded from the
-current crate package. It is not an alternative grant for new LGPL-covered
-work. Existing commits and artifacts are not rewritten.
