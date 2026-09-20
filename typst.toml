@@ -1,0 +1,9 @@
+[package]
+name = "cdate"
+version = "0.3.1"
+entrypoint = "typst/date.typ"
+authors = ["Julian Y. Richard Corbet"]
+license = "LGPL-3.0-only WITH LGPL-3.0-linking-exception"
+description = "Deterministic locale-correct date formats for formal correspondence. Mirrors the cdate Rust crate release line."
+repository = "https://github.com/corbet-labs/cdate"
+exclude = [".git", ".github", ".crow", "target", "dist", "js", "py", "tests", "scripts"]

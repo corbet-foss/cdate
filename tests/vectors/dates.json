@@ -1,0 +1,713 @@
+[
+  {
+    "name": "german long",
+    "fn": "long_date",
+    "locale": "de",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7. September 2026"
+  },
+  {
+    "name": "german medium",
+    "fn": "medium_date",
+    "locale": "de",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.2026"
+  },
+  {
+    "name": "german short",
+    "fn": "short_date",
+    "locale": "de",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.26"
+  },
+  {
+    "name": "german month-year",
+    "fn": "month_year",
+    "locale": "de",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "swiss german long",
+    "fn": "long_date",
+    "locale": "de-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7. September 2026"
+  },
+  {
+    "name": "swiss german medium",
+    "fn": "medium_date",
+    "locale": "de-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.2026"
+  },
+  {
+    "name": "swiss german short",
+    "fn": "short_date",
+    "locale": "de-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.26"
+  },
+  {
+    "name": "swiss german month-year",
+    "fn": "month_year",
+    "locale": "de-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "austrian german long",
+    "fn": "long_date",
+    "locale": "de-at",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7. September 2026"
+  },
+  {
+    "name": "austrian german medium",
+    "fn": "medium_date",
+    "locale": "de-at",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.2026"
+  },
+  {
+    "name": "austrian german short",
+    "fn": "short_date",
+    "locale": "de-at",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.26"
+  },
+  {
+    "name": "austrian german month-year",
+    "fn": "month_year",
+    "locale": "de-at",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "english long",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 7, 2026"
+  },
+  {
+    "name": "english medium",
+    "fn": "medium_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "Sep 7, 2026"
+  },
+  {
+    "name": "english short",
+    "fn": "short_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "9/7/26"
+  },
+  {
+    "name": "english month-year",
+    "fn": "month_year",
+    "locale": "en",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "british english long",
+    "fn": "long_date",
+    "locale": "en-gb",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 September 2026"
+  },
+  {
+    "name": "british english medium",
+    "fn": "medium_date",
+    "locale": "en-gb",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 Sept 2026"
+  },
+  {
+    "name": "british english short",
+    "fn": "short_date",
+    "locale": "en-gb",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07/09/2026"
+  },
+  {
+    "name": "british english month-year",
+    "fn": "month_year",
+    "locale": "en-gb",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "us english long",
+    "fn": "long_date",
+    "locale": "en-us",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 7, 2026"
+  },
+  {
+    "name": "us english medium",
+    "fn": "medium_date",
+    "locale": "en-us",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "Sep 7, 2026"
+  },
+  {
+    "name": "us english short",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "9/7/26"
+  },
+  {
+    "name": "us english month-year",
+    "fn": "month_year",
+    "locale": "en-us",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "leap day long",
+    "fn": "long_date",
+    "locale": "de-ch",
+    "year": 2024,
+    "month": 2,
+    "day": 29,
+    "expected": "29. Februar 2024"
+  },
+  {
+    "name": "leap day us short",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": 2024,
+    "month": 2,
+    "day": 29,
+    "expected": "2/29/24"
+  },
+  {
+    "name": "february 30 is invalid",
+    "fn": "long_date",
+    "locale": "de",
+    "year": 2025,
+    "month": 2,
+    "day": 30,
+    "expected": null
+  },
+  {
+    "name": "month 13 is invalid",
+    "fn": "medium_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 13,
+    "day": 1,
+    "expected": null
+  },
+  {
+    "name": "april 31 is invalid",
+    "fn": "short_date",
+    "locale": "en-gb",
+    "year": 2026,
+    "month": 4,
+    "day": 31,
+    "expected": null
+  },
+  {
+    "name": "month 0 is invalid in month-year",
+    "fn": "month_year",
+    "locale": "de",
+    "year": 2026,
+    "month": 0,
+    "day": 1,
+    "expected": null
+  },
+  {
+    "name": "spanish falls back to english",
+    "fn": "long_date",
+    "locale": "es",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 7, 2026"
+  },
+  {
+    "name": "unknown locale falls back to english",
+    "fn": "medium_date",
+    "locale": "xx",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "Sep 7, 2026"
+  },
+  {
+    "name": "empty locale falls back to english",
+    "fn": "month_year",
+    "locale": "",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "canonical locale is supported",
+    "fn": "is_supported",
+    "locale": "de-ch",
+    "expected": true
+  },
+  {
+    "name": "lowercase locale is supported",
+    "fn": "is_supported",
+    "locale": "DE-CH",
+    "expected": true
+  },
+  {
+    "name": "base language is supported",
+    "fn": "is_supported",
+    "locale": "en",
+    "expected": true
+  },
+  {
+    "name": "unlisted locale is unsupported",
+    "fn": "is_supported",
+    "locale": "es",
+    "expected": false
+  },
+  {
+    "name": "unknown locale is unsupported",
+    "fn": "is_supported",
+    "locale": "xx",
+    "expected": false
+  },
+  {
+    "name": "century leap day renders",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2000,
+    "month": 2,
+    "day": 29,
+    "expected": "February 29, 2000"
+  },
+  {
+    "name": "century common february 29 is invalid",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 1900,
+    "month": 2,
+    "day": 29,
+    "expected": null
+  },
+  {
+    "name": "future century february 29 is invalid",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2100,
+    "month": 2,
+    "day": 29,
+    "expected": null
+  },
+  {
+    "name": "century leap month-year renders",
+    "fn": "month_year",
+    "locale": "en",
+    "year": 2000,
+    "month": 2,
+    "day": 1,
+    "expected": "February 2000"
+  },
+  {
+    "name": "year 2000 wraps to 00",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": 2000,
+    "month": 1,
+    "day": 1,
+    "expected": "1/1/00"
+  },
+  {
+    "name": "year 1999 short",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": 1999,
+    "month": 12,
+    "day": 31,
+    "expected": "12/31/99"
+  },
+  {
+    "name": "smallest year short",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": -2147483648,
+    "month": 1,
+    "day": 1,
+    "expected": "1/1/52"
+  },
+  {
+    "name": "largest year short",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": 2147483647,
+    "month": 1,
+    "day": 1,
+    "expected": "1/1/47"
+  },
+  {
+    "name": "largest year long",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2147483647,
+    "month": 12,
+    "day": 31,
+    "expected": "December 31, 2147483647"
+  },
+  {
+    "name": "largest year month-year",
+    "fn": "month_year",
+    "locale": "en",
+    "year": 2147483647,
+    "month": 12,
+    "day": 1,
+    "expected": "December 2147483647"
+  },
+  {
+    "name": "day zero is invalid",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 1,
+    "day": 0,
+    "expected": null
+  },
+  {
+    "name": "day thirty-two is invalid",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 1,
+    "day": 32,
+    "expected": null
+  },
+  {
+    "name": "month zero is invalid in long",
+    "fn": "long_date",
+    "locale": "en",
+    "year": 2026,
+    "month": 0,
+    "day": 1,
+    "expected": null
+  },
+  {
+    "name": "uppercase british medium",
+    "fn": "medium_date",
+    "locale": "EN-GB",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 Sept 2026"
+  },
+  {
+    "name": "liechtenstein month-year",
+    "fn": "month_year",
+    "locale": "de-li",
+    "year": 2026,
+    "month": 9,
+    "day": 1,
+    "expected": "September 2026"
+  },
+  {
+    "name": "australian english falls back to base",
+    "fn": "long_date",
+    "locale": "EN-AU",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 7, 2026"
+  },
+  {
+    "name": "unknown region falls back to base",
+    "fn": "long_date",
+    "locale": "de-xx",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7. September 2026"
+  },
+  {
+    "name": "uppercase base language is supported",
+    "fn": "is_supported",
+    "locale": "EN",
+    "expected": true
+  },
+  {
+    "name": "uppercase region is supported",
+    "fn": "is_supported",
+    "locale": "EN-GB",
+    "expected": true
+  },
+  {
+    "name": "french long",
+    "fn": "long_date",
+    "locale": "fr",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 septembre 2026"
+  },
+  {
+    "name": "swiss french long",
+    "fn": "long_date",
+    "locale": "fr-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 septembre 2026"
+  },
+  {
+    "name": "french medium",
+    "fn": "medium_date",
+    "locale": "fr",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 sept. 2026"
+  },
+  {
+    "name": "swiss french medium",
+    "fn": "medium_date",
+    "locale": "fr-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 sept. 2026"
+  },
+  {
+    "name": "french short",
+    "fn": "short_date",
+    "locale": "fr",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07/09/2026"
+  },
+  {
+    "name": "swiss french short",
+    "fn": "short_date",
+    "locale": "fr-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.2026"
+  },
+  {
+    "name": "french month-year",
+    "fn": "month_year",
+    "locale": "fr",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "septembre 2026"
+  },
+  {
+    "name": "swiss french month-year",
+    "fn": "month_year",
+    "locale": "fr-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "septembre 2026"
+  },
+  {
+    "name": "italian long",
+    "fn": "long_date",
+    "locale": "it",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 settembre 2026"
+  },
+  {
+    "name": "swiss italian long",
+    "fn": "long_date",
+    "locale": "it-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 settembre 2026"
+  },
+  {
+    "name": "italian medium",
+    "fn": "medium_date",
+    "locale": "it",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 set 2026"
+  },
+  {
+    "name": "swiss italian medium",
+    "fn": "medium_date",
+    "locale": "it-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 set 2026"
+  },
+  {
+    "name": "italian short",
+    "fn": "short_date",
+    "locale": "it",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07/09/26"
+  },
+  {
+    "name": "swiss italian short",
+    "fn": "short_date",
+    "locale": "it-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07.09.26"
+  },
+  {
+    "name": "italian month-year",
+    "fn": "month_year",
+    "locale": "it",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "settembre 2026"
+  },
+  {
+    "name": "swiss italian month-year",
+    "fn": "month_year",
+    "locale": "it-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "settembre 2026"
+  },
+  {
+    "name": "romansh long",
+    "fn": "long_date",
+    "locale": "rm",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 da settember 2026"
+  },
+  {
+    "name": "romansh medium",
+    "fn": "medium_date",
+    "locale": "rm",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07-09-2026"
+  },
+  {
+    "name": "romansh short",
+    "fn": "short_date",
+    "locale": "rm",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "07-09-26"
+  },
+  {
+    "name": "romansh month-year",
+    "fn": "month_year",
+    "locale": "rm",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "da settember 2026"
+  },
+  {
+    "name": "french region falls back to base",
+    "fn": "long_date",
+    "locale": "FR-CH",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 septembre 2026"
+  },
+  {
+    "name": "italian uppercase region falls back to base",
+    "fn": "medium_date",
+    "locale": "IT-CH",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 set 2026"
+  },
+  {
+    "name": "french is supported",
+    "fn": "is_supported",
+    "locale": "fr",
+    "expected": true
+  },
+  {
+    "name": "swiss french is supported",
+    "fn": "is_supported",
+    "locale": "fr-ch",
+    "expected": true
+  },
+  {
+    "name": "romansh february 30 is invalid",
+    "fn": "long_date",
+    "locale": "rm",
+    "year": 2025,
+    "month": 2,
+    "day": 30,
+    "expected": null
+  }
+]

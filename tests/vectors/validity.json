@@ -1,0 +1,20 @@
+[
+  { "name": "leap day 2024 is valid", "fn": "is_valid_date", "year": 2024, "month": 2, "day": 29, "expected": true },
+  { "name": "common year february 29 is invalid", "fn": "is_valid_date", "year": 2023, "month": 2, "day": 29, "expected": false },
+  { "name": "common year february 28 is valid", "fn": "is_valid_date", "year": 2023, "month": 2, "day": 28, "expected": true },
+  { "name": "century leap year 2000 is valid", "fn": "is_valid_date", "year": 2000, "month": 2, "day": 29, "expected": true },
+  { "name": "century common year 1900 is invalid", "fn": "is_valid_date", "year": 1900, "month": 2, "day": 29, "expected": false },
+  { "name": "century common year 2100 is invalid", "fn": "is_valid_date", "year": 2100, "month": 2, "day": 29, "expected": false },
+  { "name": "january 31 is valid", "fn": "is_valid_date", "year": 2026, "month": 1, "day": 31, "expected": true },
+  { "name": "april 31 is invalid", "fn": "is_valid_date", "year": 2026, "month": 4, "day": 31, "expected": false },
+  { "name": "december 31 is valid", "fn": "is_valid_date", "year": 2026, "month": 12, "day": 31, "expected": true },
+  { "name": "month zero is invalid", "fn": "is_valid_date", "year": 2026, "month": 0, "day": 1, "expected": false },
+  { "name": "month thirteen is invalid", "fn": "is_valid_date", "year": 2026, "month": 13, "day": 1, "expected": false },
+  { "name": "day zero is invalid", "fn": "is_valid_date", "year": 2026, "month": 1, "day": 0, "expected": false },
+  { "name": "day thirty-two is invalid", "fn": "is_valid_date", "year": 2026, "month": 1, "day": 32, "expected": false },
+  { "name": "extreme month is invalid", "fn": "is_valid_date", "year": 2026, "month": 4294967295, "day": 1, "expected": false },
+  { "name": "extreme day is invalid", "fn": "is_valid_date", "year": 2026, "month": 1, "day": 4294967295, "expected": false },
+  { "name": "smallest year leap day is valid", "fn": "is_valid_date", "year": -2147483648, "month": 2, "day": 29, "expected": true },
+  { "name": "largest year february 29 is invalid", "fn": "is_valid_date", "year": 2147483647, "month": 2, "day": 29, "expected": false },
+  { "name": "largest year december 31 is valid", "fn": "is_valid_date", "year": 2147483647, "month": 12, "day": 31, "expected": true }
+]

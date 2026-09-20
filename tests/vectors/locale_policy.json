@@ -1,0 +1,38 @@
+[
+  {
+    "name": "returned locale IDs are lowercase",
+    "fn": "available_locales",
+    "expected": [
+      "de",
+      "de-at",
+      "de-ch",
+      "de-li",
+      "en",
+      "en-gb",
+      "en-us",
+      "fr",
+      "fr-ch",
+      "it",
+      "it-ch",
+      "rm"
+    ]
+  },
+  {
+    "name": "Liechtenstein long date",
+    "fn": "long_date",
+    "locale": "de-li",
+    "year": 2026,
+    "month": 9,
+    "day": 9,
+    "expected": "9. September 2026"
+  },
+  {
+    "name": "mixed-case compatibility",
+    "fn": "long_date",
+    "locale": "DE-lI",
+    "year": 2026,
+    "month": 9,
+    "day": 9,
+    "expected": "9. September 2026"
+  }
+]

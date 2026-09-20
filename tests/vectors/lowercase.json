@@ -1,0 +1,56 @@
+[
+  {
+    "name": "lowercase swiss german long",
+    "fn": "long_date",
+    "locale": "de-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7. September 2026"
+  },
+  {
+    "name": "lowercase swiss german month-year",
+    "fn": "month_year",
+    "locale": "de-ch",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "September 2026"
+  },
+  {
+    "name": "lowercase british medium",
+    "fn": "medium_date",
+    "locale": "en-gb",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7 Sept 2026"
+  },
+  {
+    "name": "lowercase us short",
+    "fn": "short_date",
+    "locale": "en-us",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "9/7/26"
+  },
+  {
+    "name": "uppercase german long",
+    "fn": "long_date",
+    "locale": "DE-CH",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "expected": "7. September 2026"
+  },
+  {
+    "name": "lowercase invalid stays invalid",
+    "fn": "long_date",
+    "locale": "de-ch",
+    "year": 2025,
+    "month": 2,
+    "day": 30,
+    "expected": null
+  }
+]
