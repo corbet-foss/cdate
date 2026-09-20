@@ -10,7 +10,7 @@ import sys
 import tarfile
 import tempfile
 
-REPOSITORY = "corbet-labs/cdate"
+REPOSITORY = "corbet-foss/cdate"
 LIMIT = 128 * 1024 * 1024
 
 

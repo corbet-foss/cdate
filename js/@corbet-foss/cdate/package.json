@@ -1,5 +1,5 @@
 {
-  "name": "@corbet-labs/cdate",
+  "name": "@corbet-foss/cdate",
   "version": "0.3.1",
   "description": "Deterministic locale-correct date formats for formal correspondence. Mirrors the cdate Rust crate release line.",
   "license": "LGPL-3.0-only WITH LGPL-3.0-linking-exception",
@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/corbet-labs/cdate.git",
-    "directory": "js/@corbet-labs/cdate"
+    "url": "git+https://github.com/corbet-foss/cdate.git",
+    "directory": "js/@corbet-foss/cdate"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -56,9 +56,9 @@
   "engines": {
     "node": ">=20"
   },
-  "homepage": "https://github.com/corbet-labs/cdate#readme",
+  "homepage": "https://github.com/corbet-foss/cdate#readme",
   "bugs": {
-    "url": "https://github.com/corbet-labs/cdate/issues"
+    "url": "https://github.com/corbet-foss/cdate/issues"
   },
   "keywords": [
     "i18n",

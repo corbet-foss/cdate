@@ -1,7 +1,7 @@
 schema = 1
 
 [github]
-repository = "corbet-labs/cdate"
+repository = "corbet-foss/cdate"
 workflow = "ccid.yml"
 workflow_sha256 = "4dcef2cb19f84463faf87e56e9b0fd940ab1908b451c829b80618301561e0d90"
 checks = ["rust"]
