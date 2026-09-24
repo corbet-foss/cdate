@@ -1,6 +1,6 @@
 {
   "name": "@corbet-labs/cdate",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Deterministic locale-correct date formats for formal correspondence. Mirrors the cdate Rust crate release line.",
   "license": "LGPL-3.0-only WITH LGPL-3.0-linking-exception",
   "publishConfig": {

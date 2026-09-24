@@ -3,8 +3,12 @@
 All notable changes to `cdate` are documented here. The project follows
 Semantic Versioning.
 
-## Unreleased
+## 0.3.2 - 2026-09-24
 
+- Repository moved to github.com/corbet-foss/cdate; registry metadata points there.
+- Released from a single tag through CI (crates.io and JSR trusted publishing).
+- Drop the duplicate `LICENSES/LGPL-3.0-only WITH LGPL-3.0-linking-exception.txt`
+  (identical to `LGPL-3.0-linking-exception.txt`); JSR rejects paths with spaces.
 - Add Swiss French (`fr-ch`) and Swiss Italian (`it-ch`) date tables:
   month names match `fr`/`it`, the numeric short form uses Swiss dots
   (`07.09.2026`, `07.09.26`) instead of slashes. Vectors cover long,

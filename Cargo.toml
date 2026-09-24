@@ -1,6 +1,6 @@
 [package]
 name = "cdate"
-version = "0.3.1"
+version = "0.3.2"
 edition = "2024"
 rust-version = "1.94"
 description = "Locale-correct date formats for formal correspondence"
@@ -11,7 +11,7 @@ documentation = "https://docs.rs/cdate"
 keywords = ["i18n", "correspondence", "locale"]
 categories = ["internationalization", "text-processing"]
 
-include = ["Cargo.toml", "Cargo.lock", "src/**", "tables/**", "tests/**", "README.md", "CHANGELOG.md", "LICENSE", "LICENSE.md", "LICENSES/Apache-2.0.txt", "LICENSES/GPL-3.0-only.txt", "LICENSES/LGPL-3.0-linking-exception.txt", "LICENSES/LGPL-3.0-only WITH LGPL-3.0-linking-exception.txt", "LICENSES/LGPL-3.0-only.txt"]
+include = ["Cargo.toml", "Cargo.lock", "src/**", "tables/**", "tests/**", "README.md", "CHANGELOG.md", "LICENSE", "LICENSE.md", "LICENSES/Apache-2.0.txt", "LICENSES/GPL-3.0-only.txt", "LICENSES/LGPL-3.0-linking-exception.txt", "LICENSES/LGPL-3.0-only.txt"]
 
 [lints.rust]
 unsafe_code = "forbid"

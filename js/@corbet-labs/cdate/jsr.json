@@ -1,6 +1,6 @@
 {
   "name": "@corbet-labs/cdate",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "exports": "./src/index.ts",
   "license": "LGPL-3.0-only",
   "publish": {
