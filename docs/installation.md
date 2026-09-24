@@ -10,7 +10,7 @@ for availability; a source manifest alone does not establish publication.
 
 Use Cargo for Rust and npm, pnpm, Yarn, or Bun for JavaScript. These JavaScript
 package managers share the npm registry; each consumes the same package.
-Deno can use `npm:@corbet-foss/cdate`. The browser export bundles runtime
+Deno can use `npm:@corbet-labs/cdate`. The browser export bundles runtime
 dependencies and needs no import map. The declared Rust minimum is 1.94. Release checks use the worker's current stable compiler; a separate minimum-version check is required to
 verify that lower bound.
 
@@ -53,10 +53,10 @@ Verified wheels and source distributions are also attached to the
 ## JSR
 
 The JSR package is
-[`@corbet-foss/cdate`](https://jsr.io/@corbet-foss/cdate@0.3.1):
+[`@corbet-labs/cdate`](https://jsr.io/@corbet-labs/cdate@0.3.1):
 
 ```sh
-deno add jsr:@corbet-foss/cdate@0.3.1
+deno add jsr:@corbet-labs/cdate@0.3.1
 ```
 
 ## Typst

@@ -2,12 +2,12 @@
 
 **Reproducible date formats for correspondence.**
 
-[![crates.io](https://img.shields.io/crates/v/cdate.svg)](https://crates.io/crates/cdate) [![npm](https://img.shields.io/npm/v/@corbet-foss/cdate.svg)](https://www.npmjs.com/package/@corbet-foss/cdate) [![PyPI](https://img.shields.io/pypi/v/cdate.svg)](https://pypi.org/project/cdate/) [![Rust API](https://docs.rs/cdate/badge.svg)](https://docs.rs/cdate)
+[![crates.io](https://img.shields.io/crates/v/cdate.svg)](https://crates.io/crates/cdate) [![npm](https://img.shields.io/npm/v/@corbet-labs/cdate.svg)](https://www.npmjs.com/package/@corbet-labs/cdate) [![PyPI](https://img.shields.io/pypi/v/cdate.svg)](https://pypi.org/project/cdate/) [![Rust API](https://docs.rs/cdate/badge.svg)](https://docs.rs/cdate)
 
 Format a Gregorian calendar date without a timezone, operating-system locale, or network dependency. The same inputs produce the same text in Rust, JavaScript, Python, and Typst.
 
 ```js
-import { longDate } from '@corbet-foss/cdate';
+import { longDate } from '@corbet-labs/cdate';
 
 longDate('de-ch', 2026, 9, 7);
 // 7. September 2026
@@ -20,11 +20,11 @@ longDate('de-ch', 2026, 9, 7);
 | Rust / Cargo | `cargo add cdate` |
 | Python / pip | `python -m pip install cdate` |
 | Python / uv | `uv add cdate` |
-| Node.js / npm | `npm install @corbet-foss/cdate` |
-| pnpm | `pnpm add @corbet-foss/cdate` |
-| Yarn | `yarn add @corbet-foss/cdate` |
-| Bun | `bun add @corbet-foss/cdate` |
-| Deno | `deno add npm:@corbet-foss/cdate` |
+| Node.js / npm | `npm install @corbet-labs/cdate` |
+| pnpm | `pnpm add @corbet-labs/cdate` |
+| Yarn | `yarn add @corbet-labs/cdate` |
+| Bun | `bun add @corbet-labs/cdate` |
+| Deno | `deno add npm:@corbet-labs/cdate` |
 
 The 0.3.1 JavaScript distribution includes compiled ESM, CommonJS,
 TypeScript declarations, and a standalone browser module. Node.js 20+ is
@@ -32,12 +32,12 @@ supported; no TypeScript loader is required.
 
 ```js
 // CommonJS
-const { longDate } = require('@corbet-foss/cdate');
+const { longDate } = require('@corbet-labs/cdate');
 ```
 
 ```html
 <script type="module">
-  import { longDate } from 'https://cdn.jsdelivr.net/npm/@corbet-foss/cdate@0.3.1/dist/browser.js';
+  import { longDate } from 'https://cdn.jsdelivr.net/npm/@corbet-labs/cdate@0.3.1/dist/browser.js';
   console.log(longDate('de-ch', 2026, 9, 7));
 </script>
 ```
